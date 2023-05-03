@@ -1,69 +1,56 @@
-.pagina {
-    margin-left: 50px;
-    margin-right: 50px;
-    height: auto;
-    width: auto;
-    background-color: black;
-  }
-  .cabecario-pagina {
-    margin-bottom: 10px;
-    margin-left: -12px;
-    margin-right: -12px;
-    height: 50px;
-  }
-  .navegador-pagina ul {
-    display: flex;
-  }
-  .navegador-pagina li {
-    padding: 20px;
-  }
-  .navegador-pagina a {
-    color: yellow;
-    font-size: 40px;
-    line-height: 1px;
-    text-decoration: none;
-  }
-  .artigo-pagina {
-    border-color: white;
-    border: 3px 3px 3px 3px;
-  }
-  .titulo-pagina {
-    font-size: 70px;
-    text-align: center;
-    color: yellow;
-  }
-  .subtitulo-pagina {
-    font-size: 50px;
-    text-align: center;
-    color: white;
-  }
-  .paragrafo-pagina {
-    font-size: 25px;
-    text-align: left;
-    color: white;
-    padding: 15px;
-    border: 5px;
-    border-width: 3px;
-    border-radius: 2px;
-    border-style:solid ;
-    border-color: white;
-    width: 600px;
-    margin: auto;
-  }
-  .paragrafo-destaque {
-    font-size: 20px;
-    color: white;
-    line-height: 50px;
-    margin-inline: 10px;
-    text-shadow: 1px 1px 0px #000000;
-    margin-bottom: 15px;
-  }
-  .rodape-pagina {
-    height: 50px;
-    background-image: url(/img/darkfountain.gif);
-    background-size: cover;
-    background-position: center bottom;
-    background-repeat: no-repeat;
-    margin-top: 10px;
-  }
-  
+.corpo-pagina {
+  background-color: black;
+  color: white;
+  width: 1250px;
+  height: auto;
+  margin: 20px;
+}
+.cabecario-pagina {
+  margin-top: -20px;
+  margin-bottom: 20px;
+  background-image: url(/img/capa-cabecario.jpeg);
+  background-size: cover;
+  background-position: center;
+  height: 100px;
+  width: auto;
+}
+.navegador-pagina {
+  font-size: 50px;
+  line-height: 2.0;
+}
+.navegador-pagina a {
+  color: yellow;
+  padding-right: 25px;
+}
+.navegador-pagina ul {
+  display: flex;
+  justify-content: left;
+  margin-left: 25px;
+}
+.principal-pagina {
+  width: 500px;
+  height: auto;
+  margin-left: 335px;
+  margin-right: 0px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  border: 5px;
+  border-style: solid;
+  border-color: white;
+}
+.artigo-pagina {
+  padding: 15px;
+}
+.titulo-pagina {
+  font-size: 3.5rem;
+  color: yellow;
+  text-align: center;
+}
+.subtitulo-pagina {
+  font-size: 2.5rem;
+  text-align: center;
+}
+.paragrafo-pagina {
+  font-size: 1.5rem;
+  text-align: left;
+}
