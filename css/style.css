@@ -1,0 +1,71 @@
+.corpo-pagina {
+    background-color: black;
+    color: white;
+    width: 1250px;
+    height: auto;
+    margin: 20px;
+    border-right: 10px;
+    border-color: white;
+    border-style: solid;
+  }
+  .cabecario-pagina {
+    margin-top: -20px;
+    margin-left: -20px;
+    margin-right: -20px;
+    margin-bottom: 20px;
+    background-image: url(/img/capa-cabecario.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 100px;
+    width: auto;
+    line-height: 2.0;
+  }
+  .navegador-pagina {
+    font-size: 35px;
+    line-height: 1.0rem;
+  }
+  .navegador-pagina a {
+    color: yellow;
+    padding-right: 25px;
+    text-decoration: none;
+  }
+  .navegador-pagina ul {
+    display: flex;
+    justify-content: left;
+    margin-left: 25px;
+  }
+  .principal-pagina {
+    width: 625px;
+    height: auto;
+    margin-left: 300px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border: 5px;
+    border-style: solid;
+    border-color: white;
+  }
+  .divisao-pagina {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .artigo-pagina {
+    padding: 15px;
+  }
+  .titulo-pagina {
+    font-size: 3.5rem;
+    color: yellow;
+    text-align: center;
+  }
+  .subtitulo-pagina {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+  .paragrafo-pagina {
+    font-size: 1.5rem;
+    text-align: left;
+  }
+  .paragrafo-destaque {
+    font-size: 1.5rem;
+    color: yellow;
+    text-align: center;
+  }
