@@ -1,61 +1,94 @@
-@font-face {
-  font-family: 'Deltarune';
-  src: url('font/deltarune.ttf') format('ttf');
-  font-display: swap;
-}
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap');
 :root {
-  font-family: 'Deltarune',serif;
+  font-family: 'Ubuntu', sans-serif;
 }
-.corpo-pagina {
+.corpo {
   width: 80vw;
-  height: 100vh;
+  height: auto;
   margin: auto;
-  background-image: url(/img/capa-cabecario.jpeg);
+  background-image: url(/img/another-him.jpeg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   color: white;
 }
-.cabecario-pagina {
+.cabecario {
   background-color: black;
   margin-bottom: 20px;
   height: 100px;
 }
-.navegador-pagina a {
+.navegador a {
   font-size: 3rem;
   line-height: 2.0;
   padding-left: 20px;
   color: yellow;
   text-decoration: none;
 }
-.navegador-pagina ul {
+.navegador ul {
   display: flex;
   justify-content: left;
   padding-left: 10px;
   padding-right: 10px;
 }
-.artigo-pagina {
-  width: 500px;
+.titulo {
+  font-size: 4rem;
+  color: yellow;
+}
+.subtitulo {
+  font-size: 3rem;
+  color: yellow;
+}
+.paragrafo {
+  font-size: 1.3rem;
+  color: white;
+}
+.destaque {
+  font-size: 2.5;
+  color: red;
+}
+.area1 {
+  width: 80vw;
+  height: auto;
+  display: flex;
+  color: black;
+  justify-content: center;
+}
+.principal {
+  width: 60vw;
   height: auto;
   display: flex;
   justify-content: center;
-  align-content: center;
-  flex-flow: row wrap;
-  border: 3px;
-  border-style: solid;
-  border-color: white;
-  padding: 15px;
 }
-.titulo-pagina {
-  font-size: 3.5rem;
-  color: yellow;
-  text-align: center;
-}
-.subtitulo-pagina {
-  font-size: 2.5rem;
-  text-align: center;
-}
-.paragrafo-pagina {
-  font-size: 1.5rem;
+.coluna {
+  padding-left: 5vw;
+  width: 20vw;
+  height: auto;
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+  align-items: left;
   text-align: left;
+}
+.artigo {
+  width: 60vw;
+  height: auto;
+  border: 5px;
+  border-style: solid;
+  border-color: green;
+  background-color: black;
+  padding: 3vw;
+}
+.artigo-coluna {
+  border: 5px solid green;
+  padding: 1vh;
+  background-color: black;
+}
+.artigo p {
+  font-size: 2rem;
+  color: white;
+}
+.rodape {
+  margin-top: 5vh;
+  background-color: black;
+  text-align: center;
 }
