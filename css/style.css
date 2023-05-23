@@ -3,7 +3,7 @@
   font-family: 'Ubuntu', sans-serif;
 }
 .corpo {
-  width: 80vw;
+  width: 90vw;
   height: auto;
   margin: auto;
   background-image: url(/img/another-him.jpeg);
@@ -14,7 +14,7 @@
 }
 .cabecario {
   background-color: black;
-  margin-bottom: 20px;
+  margin-bottom: 5vh;
   height: 100px;
 }
 .navegador a {
@@ -31,30 +31,46 @@
   padding-right: 10px;
 }
 .titulo {
-  font-size: 4rem;
+  font-size: 2.5rem;
+  line-height: 1.4;
   color: yellow;
 }
 .subtitulo {
-  font-size: 3rem;
+  font-size: 2rem;
+  line-height: 1.4;
   color: yellow;
 }
 .paragrafo {
-  font-size: 1.3rem;
+  font-size: 1.5rem;
+  line-height: 1.4;
   color: white;
+  text-align: left;
+}
+.paragrafo-coluna {
+  font-size: 1.5rem;
+  line-height: 1.4;
+  color: white;
+  text-align: center;
 }
 .destaque {
-  font-size: 2.5;
+  font-size: 1rem;
   color: red;
 }
 .area1 {
-  width: 80vw;
+  width: 90vw;
   height: auto;
   display: flex;
   color: black;
-  justify-content: center;
+  justify-content: space-around;
 }
 .principal {
-  width: 60vw;
+  width: 65vw;
+  height: auto;
+  display: flex;
+  justify-content: left;
+}
+.principal-sobre {
+  width: 90vw;
   height: auto;
   display: flex;
   justify-content: center;
@@ -78,17 +94,34 @@
   background-color: black;
   padding: 3vw;
 }
+.artigo p {
+  font-size: 1.5rem;
+  line-height: 1.4;
+  color: white;
+}
+.artigo-sobre {
+  width: 60vw;
+  height: auto;
+  border: 5px solid green;
+  padding: 3vw;
+  background-color: black;
+}
+.artigo-sobre p {
+  font-size: 1.5rem;
+  line-height: 1.4;
+  color: white;
+}
 .artigo-coluna {
   border: 5px solid green;
   padding: 1vh;
   background-color: black;
 }
-.artigo p {
-  font-size: 2rem;
-  color: white;
-}
 .rodape {
   margin-top: 5vh;
   background-color: black;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100px;
 }
