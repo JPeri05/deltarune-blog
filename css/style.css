@@ -125,3 +125,8 @@
   justify-content: center;
   height: 100px;
 }
+.rodape a {
+  font-size: 3rem;
+  text-decoration: none;
+  color: red;
+}
